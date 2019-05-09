@@ -15,7 +15,7 @@
   + Un message (deux types) est soit : en clair (~phrase en français) ou déjà encoder (crypté);
   + Un alphabet est une chaîne de caractères;
   
-  Le programme `tp1` doit pouvoir être lancé en `ligne de commande` avec toutes les combinaisons d'options possibles.
+  Le programme `tp1` doit (et sera) être lancé en `ligne de commande` avec toutes les combinaisons d'options possibles.
   
 #### Détails sur les options et arguments
 
