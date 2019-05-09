@@ -12,9 +12,9 @@
   Le programme doit encoder et décoder `(encrypt, decrypt)` des messages en utilisant une clé simple et un alphabet.
   
   + Une clé simple est un nombre positif ou négatif;
-  + Une clé composé est plusieurs nombres positif ou négatif;
-  + Un message (deux types) est soit : en clair (~phrase en français) ou déja encoder (crypté);
-  + Un alphabet est un chaine de caractères;
+  + Une clé composée est plusieurs nombres positif ou négatif;
+  + Un message (deux types) est soit : en clair (~phrase en français) ou déjà encoder (crypté);
+  + Un alphabet est une chaîne de caractères;
   
   Le programme `tp1` doit pouvoir être lancé en `ligne de commande` avec toutes les combinaisons d'options possibles.
   
@@ -22,13 +22,15 @@
 
 *  -c `<CODE permanent>`
 *  -i `<fichier source en entrée contenant le message>`
-*  -o `<fichier traité en sortie après l'exécution voulu>`
-*  -d | -e                               `quel est le traitement voulu : decodage ou encodage du message`
+*  -o `<fichier traité en sortie après l'exécution voulue>`
+*  -d | -e                               `quel est le traitement voulu : décodage ou encodage du message`
 *  -k `<clé simple>`
 
-  Le `CODE permanent` provient du fichier `cp.txt`.  Une variable nommé `CP` dans le `Makefile` doit être créée 
+  Le `CODE permanent` provient du fichier `cp.txt`.  Une variable nommée `CP` dans le `Makefile` doit être créée 
   pour récupérer le contenu du fichier `cp.txt`. Il est aussi possible de faire appel à un fichier `bash`
   pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
+  
+  L'alphabet provient du fichier alphabet.txt. Le fichier sera inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
 
 #### Quelques exemples valides (mais pas tous)
 
@@ -50,12 +52,14 @@
 
 ### Un message en clair
 
+`msg1.txt`
 ~~~~
 Ceci est un message lisible en francais sans les accents ou caracteres complexe.
 ~~~~
 
 ### Un message encodé
 
+`msg2.txt`
 ~~~~
 Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 ~~~~
@@ -68,6 +72,7 @@ Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 
 ### L'alphabet
 
+`alphabet.txt`
 ~~~~
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ~~~~
@@ -147,7 +152,7 @@ pour traquer certaines erreurs et les mauvaises pratiques de programmation.
   La totalité de votre travail doit être remis au plus tard le **18 juin 2019** à **00h01**. 
   À partir de minuit, une pénalité de **5 points par jour** de retard sera appliquée.
 
-  La remise se fait **obligatoirement** par l'intermédiaire de l'une des plateformes suivantes :
+  La remise se fait **obligatoirement** par l'intermédiaire de l'une des plateformes de gestion de version suivantes :
   + `GitHub https://github.com/`___;
   + `GitLab https://gitlab.com/`___.
   
