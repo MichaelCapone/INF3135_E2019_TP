@@ -47,7 +47,7 @@
 - En plus de sortir les résultats dans `stdout` ou un fichier de résultats, un fichier nommé `code.txt` doit être produit au moment de l'exécution de votre programme et contiendra uniquement votre `CODE PERMANNENT` qui est passé par l'argument `-c`;
 
 
-# Exemple
+## Exemple
 
 ### Un message en clair
 
@@ -76,7 +76,7 @@ Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ~~~~
 
-# Les tests
+## Les tests
 
   Les tests sont de votre responsabilité.
   
