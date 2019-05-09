@@ -12,7 +12,6 @@
   Le programme doit encoder et décoder `(encrypt, decrypt)` des messages en utilisant une clé simple et un alphabet.
   
   + Une clé simple est un nombre positif ou négatif;
-  + Une clé composée est plusieurs nombres positif ou négatif;
   + Un message (deux types) est soit : en clair (~phrase en français) ou déjà encoder (crypté);
   + Un alphabet est une chaîne de caractères;
   
