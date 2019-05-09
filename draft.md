@@ -5,7 +5,7 @@
 
   De plus, vos sources seront maintenues dans un gestionnaire de version/source de type git.
   
-  Vous allez aussi vous familiariser avec `make` et le fichier `Makefile` afin `d'automatiser` plusieurs tâches utiles.
+  Vous allez aussi vous familiariser avec la commande `make` et le fichier `Makefile` afin `d'automatiser` plusieurs tâches utiles.
 
 # Description du travail
 
@@ -31,7 +31,7 @@
   
   L'alphabet provient du fichier alphabet.txt. Le fichier sera inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
 
-### Quelques exemples valides (mais pas tous)
+### Quelques exemples de ligne de commande valides (mais pas tous)
 
 + `$ ./tp1 -d -k 2 -c CODE_permanent -i nom_du_fichier_en_entree.ext > fichier_sortie.ext`
 + `$ ./tp1 -k 1 -e -c CODE_permanent`
