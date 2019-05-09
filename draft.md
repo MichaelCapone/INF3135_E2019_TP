@@ -9,6 +9,9 @@
 
 # Description du travail
 
+  Nous voulons dans ce travail, à l'aide d'un sujet moderne `la crypto`, mais qui date des Romains, apprendre à produire un
+  logiciel efficace en langage C.  Simplement la méthode de caesar sera d'usage.  Elle consiste a faire un décalage de caratères.
+  
   Le programme doit encoder et décoder `(encrypt, decrypt)` des messages en utilisant une clé simple et un alphabet.
   
   + Une clé simple est un nombre positif ou négatif;
@@ -34,7 +37,9 @@
   
   Les options `-d ` ou `-e` spécifi le traitement voulu : décodage ou encodage du message. Elles ne sont pas suivit d'un complément.
   
-  L'alphabet provient du fichier alphabet.txt. Le fichier sera inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
+  Le chemin par default de l'alphabet est le répertoirte courant. Avec l'option `-a`, il est possible d'ouvrir un fichier nommé
+  alphabet.txt situé dans un autre répertoire. L'alphabet provient toujours du fichier alphabet.txt. Un exemple du fichier sera
+  inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) obligatoire
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) facultatif
@@ -105,7 +110,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 # Complément pour la compilation
 
 + `-std=c99` indique au compilateur de traiter le code selon le standard C99 (et donc de rejeter certaines extensions comme celles de GNU par exemple);
-+ `-std=c11` indique au compilateur de traiter le code selon le standard C11 (2011); 
++ `-std=c11` indique au compilateur de traiter le code selon le standard C11 (2011);
 + `-pedantic` permet de signaler les avertissements, ou warnings, selon la norme ISO;
 + `-Wall` permet de signaler un grand nombre d’autres warnings décrit dans le man gcc.
 
@@ -192,7 +197,7 @@ Il n'y aura pas d'humain pour faire fonctionner le programme.
 Votre travail sera soumis à plusieurs cas et les résultats seront évalués par un script `bash`.
 Assurez-vous de bien lire toutes les directives et les requis.
 
-> > Les fichiers seront soumis au détecteur de plagiat.
+> > Les fichiers seront soumis au détecteur de plagiat. Faites attention à l'internet.
 
 # Barème de correction (a faire)
 
