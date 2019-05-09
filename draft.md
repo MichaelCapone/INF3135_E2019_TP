@@ -88,7 +88,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
   
   Ce qui est fourni dans l'énoncé est à titre d'exemple. Ceci vous aide pour débuter la réflexion. 
   Votre rôle est de compléter celle-ci (la réflexion) ainsi que tout ce que vous jugez neécessaire pour obtenir un logiciel
-  qui soit conforme. Il est fort possible que les tests soient plus nombreux et complets lors de la correction.
+  qui soit conforme. Il est fort possible que votre logiciel soit soumi à plusieurs cas lors de la correction.
 
 # Makefile
 
@@ -203,11 +203,11 @@ Assurez-vous de bien lire toutes les directives et les requis.
 
 | Critère | Sous-critère | Points |
 | ------- |:------------ | ------:|
-| Fonctionnabilité  | 5 à 10 tests seront lancés (comparaison binaire) | 6.0 |
-| Compilation       | sans avertissement ni erreur                     | 1.0 |
-| Git clone         | récupération (droit lecture, écriture)  | 1.0 |
-| Qualité           | temps d'exécution (performance) et code | 2.0 |
-| Directives        | création de code.txt                    | 0.5 |
-| Makefile          | <ul><li>make</li><li>make clean</li><li>make data</li><li>make test</li><li>make resultat</li></ul> | <ul><li>1.0</li><li>0.5</li><li>1.0</li><li>0.5</li><li>0.5</li></ul> |
+| Fonctionnabilité  | 5 à 10 tests seront lancés (comparaison binaire) | 13.0 |
+| Compilation       | sans avertissement ni erreur                     | 2.0 |
+| Git clone         | récupération (droit lecture, écriture)           | 1.0 |
+| Qualité           |                                                  | 1.0 |
+| Directives        | respect des contraintes                          | 1.0 |
+| Makefile          | <ul><li>make</li><li>make clean</li><li>make data</li><li>make test</li><li>make resultat</li></ul> | <ul><li>2.0</li><li>1.0</li><li>1.0</li><li>1.0</li><li>1.0</li></ul> |
 | Markdown          | README.md                               | 1.0 |
 | **Total**         |                                         | 25 |
