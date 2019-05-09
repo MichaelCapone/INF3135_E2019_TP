@@ -19,17 +19,26 @@
   
 ### Détails sur les options et arguments
 
-*  -c `<CODE permanent>`
-*  -i `<fichier source en entrée contenant le message>`
-*  -o `<fichier traité en sortie après l'exécution voulue>`
-*  -d | -e                               `quel est le traitement voulu : décodage ou encodage du message`
-*  -k `<clé simple>`
+#### Options et parametres (si applicable)
+
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) -c `<CODE permanent>`
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) -i `<fichier source en entrée contenant le message>`
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) -o `<fichier traité en sortie après l'exécution voulue>`
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) -d | -e                               
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) -k `<clé simple>`
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) -a `<chemin vers le fichier alphabet>`
 
   Le `CODE permanent` provient du fichier `cp.txt`.  Une variable nommée `CP` dans le `Makefile` doit être créée 
   pour récupérer le contenu du fichier `cp.txt`. Il est aussi possible de faire appel à un fichier `bash`
   pour l'exécution de vos tests.
   
+  Les options `-d ` ou `-e` spécifi le traitement voulu : décodage ou encodage du message. Elles ne sont pas suivit d'un complément.
+  
   L'alphabet provient du fichier alphabet.txt. Le fichier sera inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) obligatoire
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) facultatif
+
 
 ### Quelques exemples de ligne de commande valides (mais pas tous)
 
@@ -38,11 +47,6 @@
 + `$ ./tp1 -c CODE_permanent -d -k 3 -o fichier.out`
 + `$ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext -o fichier_sortie.ext -k 7 -e`
 + `$ ./tp1 -c CODE_permanent -d -k 9 < nom_du_fichier_en_entree.ext > fichier_sortie.ext`
-
-### Vous devez réaliser le travail selon les contraintes suivantes:
-
-
-
 
 ## Exemples
 
