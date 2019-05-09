@@ -17,7 +17,7 @@
   
   Le programme `tp1` doit (et sera) être lancé en `ligne de commande` avec toutes les combinaisons d'options possibles.
   
-#### Détails sur les options et arguments
+### Détails sur les options et arguments
 
 *  -c `<CODE permanent>`
 *  -i `<fichier source en entrée contenant le message>`
@@ -31,7 +31,7 @@
   
   L'alphabet provient du fichier alphabet.txt. Le fichier sera inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
 
-#### Quelques exemples valides (mais pas tous)
+### Quelques exemples valides (mais pas tous)
 
 + `$ ./tp1 -d -k 2 -c CODE_permanent -i nom_du_fichier_en_entree.ext > fichier_sortie.ext`
 + `$ ./tp1 -k 1 -e -c CODE_permanent`
@@ -39,15 +39,12 @@
 + `$ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext -o fichier_sortie.ext -k 7 -e`
 + `$ ./tp1 -c CODE_permanent -d -k 9 < nom_du_fichier_en_entree.ext > fichier_sortie.ext`
 
-#### Vous devez réaliser le travail selon les contraintes suivantes:
-
-- Les `#include` standard sont tous permis. Tel que `#include <stdio.h>`;
-- Vous ne pouvez pas utiliser des librairies `#include` d'un tiers;
-- Seulement un `header` `#include "tp1.h"` de votre création est permis;
-- En plus de sortir les résultats dans `stdout` ou un fichier de résultats, un fichier nommé `code.txt` doit être produit au moment de l'exécution de votre programme et contiendra uniquement votre `CODE PERMANNENT` qui est passé par l'argument `-c`;
+### Vous devez réaliser le travail selon les contraintes suivantes:
 
 
-## Exemple
+
+
+## Exemples
 
 ### Un message en clair
 
@@ -76,12 +73,13 @@ Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ~~~~
 
-## Les tests
+# Les tests
 
   Les tests sont de votre responsabilité.
   
-  Ce qui est fourni dans l'énoncé est à titre d'exemple. Vous pouvez débuter la réflexion.  Votre rôle est de compléter celle-ci.
-  Il est fort possible que les tests soient plus nombreux et complets lors de la correction.
+  Ce qui est fourni dans l'énoncé est à titre d'exemple. Ceci vous aide pour débuter la réflexion. 
+  Votre rôle est de compléter celle-ci (la réflexion) ainsi que tout ce que vous jugez neécessaire pour obtenir un logiciel
+  qui soit conforme. Il est fort possible que les tests soient plus nombreux et complets lors de la correction.
 
 # Makefile
 
@@ -100,16 +98,15 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
   
 - Lorsqu'on entre `make resultat` le fichier `note-du-tp.txt` situé à la racine du dépôt local sera poussé dans votre dépôt distant.
 
-# Complément
+# Complément pour la compilation
 
-+ `-std=c99` indique au compilateur de traiter le code selon le standard C99 (et donc de rejeter certaines extensions comme celles de GNU par exemple)
-+ `-std=c11` indique au compilateur de traiter le code selon le standard C11 (2011) 
-+ `-pedantic` permet de signaler les avertissements, ou warnings, selon la norme ISO ;
++ `-std=c99` indique au compilateur de traiter le code selon le standard C99 (et donc de rejeter certaines extensions comme celles de GNU par exemple);
++ `-std=c11` indique au compilateur de traiter le code selon le standard C11 (2011); 
++ `-pedantic` permet de signaler les avertissements, ou warnings, selon la norme ISO;
 + `-Wall` permet de signaler un grand nombre d’autres warnings décrit dans le man gcc.
+
 En effet, la grande permissivité de C réduit l’aide (la verbosité) du compilateur (sans option)
 pour traquer certaines erreurs et les mauvaises pratiques de programmation.
-
----
 
 # README.md
 
@@ -150,8 +147,9 @@ pour traquer certaines erreurs et les mauvaises pratiques de programmation.
 
 # Contrainte
 
-  Le travail pratique 1 est à faire individuellement. Donc chacun doit faire initialiser
-  son dépôt GitHub, Bitbucket ou GitLab avec un système de gestion de version type Git.
+- Les `#include` standard au langage C sont tous permis. Tel que `#include <stdio.h>`;
+- Vous ne pouvez pas utiliser des librairies (entêtes et implémentations binaire) `#include "autre.h"` d'un tiers;
+- Le travail pratique 1 est à faire individuellement. Donc chacun doit initialiser son propre dépôt (git) distant privé;
 
 # Remise
 
