@@ -35,7 +35,7 @@
   pour récupérer le contenu du fichier `cp.txt`. Il est aussi possible de faire appel à un fichier `bash`
   pour l'exécution de vos tests.
   
-  Les options `-d ` ou `-e` spécifi le traitement voulu : décodage ou encodage du message. Elles ne sont pas suivit d'un complément.
+  Les options `-d ` ou `-e` spécifient le traitement voulu : décodage ou encodage du message. Elles ne sont pas suivies d'un complément.
   
   Le chemin par default de l'alphabet est le répertoirte courant. Avec l'option `-a`, il est possible d'ouvrir un fichier nommé
   alphabet.txt situé dans un autre répertoire. L'alphabet provient toujours du fichier alphabet.txt. Un exemple du fichier sera
