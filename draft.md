@@ -25,7 +25,7 @@
 #### Options et parametres (si applicable)
 
 * ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) -c `<CODE permanent>`
-* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) -i `<fichier source en entrée contenant le message>`
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) -i `<fichier source en entrée avant le traitement>`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) -o `<fichier traité en sortie après l'exécution voulue>`
 * ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) -d | -e                               
 * ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) -k `<clé simple>`
