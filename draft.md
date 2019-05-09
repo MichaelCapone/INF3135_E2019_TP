@@ -27,7 +27,7 @@
 
   Le `CODE permanent` provient du fichier `cp.txt`.  Une variable nommée `CP` dans le `Makefile` doit être créée 
   pour récupérer le contenu du fichier `cp.txt`. Il est aussi possible de faire appel à un fichier `bash`
-  pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
+  pour l'exécution de vos tests.
   
   L'alphabet provient du fichier alphabet.txt. Le fichier sera inclus dans le fichier data.zip disponible sur le dépôt `GitHub`.
 
@@ -75,6 +75,13 @@ Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 ~~~~
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ~~~~
+
+# Les tests
+
+  Les tests sont de votre responsabilité.
+  
+  Ce qui est fourni dans l'énoncé est à titre d'exemple. Vous pouvez débuter la réflexion.  Votre rôle est de compléter celle-ci.
+  Il est fort possible que les tests soient plus nombreux et complets lors de la correction.
 
 # Makefile
 
