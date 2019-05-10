@@ -111,9 +111,9 @@ penses-tu
 - Lorsqu'on entre simplement `make`, l'exécutable `tp1` doit être produit (ou mis à jour), 
   avec les arguments suivants (obligatoire) : `-Wall -pedantic -std=c11`;
 
-- Lorsqu'on entre `make clean`, les fichiers `.o`, `code.txt` et l'exécutable doivent être supprimés (uniquement les fichiers provenant du dépôt devraient rester);
+- Lorsqu'on entre `make clean`, les fichiers générés par le Makefile ou les exécutions seront supprimés. Tel que `.o`, fichiers temporaires et l'exécutable seront supprimés (Il devrait uniquement rester des fichiers provenant du dépôt distant);
 
-- Lorsqu'on entre `make data`, le téléchargement des données (fichier) https://www.github.com/guyfrancoeur/INF3135_E2019_TP/raw/master/tp1/data.zip se fait
+- Lorsqu'on entre `make data`, le téléchargement des données (fichier zip) https://www.github.com/guyfrancoeur/INF3135_E2019_TP/raw/master/crypto-data.zip se fait
   de façon automatique. La décompression du fichier est est dirigée dans répertoire `./data`;
 
 - Lorsqu'on entre `make test` le programme `tp1` s'exécutera séquentiellement avec les fichiers contenus dans `./data`.
