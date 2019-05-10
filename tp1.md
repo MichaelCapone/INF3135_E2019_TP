@@ -171,7 +171,7 @@ pour traquer certaines erreurs et les mauvaises pratiques de programmation.
 
 - Les `#include` standard au langage C sont tous permis. Tel que `#include <stdio.h>`;
 - Vous ne pouvez pas utiliser des librairies (entêtes et implémentations binaire) `#include "autre.h"` d'un tiers;
-- Le travail pratique 1 est à faire individuellement. Donc chacun doit initialiser son propre dépôt (git) distant privé;
+- Le travail pratique 1 est à faire individuellement. Donc chacun doit initialiser son propre dépôt (git) distant *privé*;
 
 # Remise
 
@@ -215,15 +215,15 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 
 > > Les fichiers seront soumis au détecteur de plagiat. Faites attention à l'internet.
 
-# Barème de correction (a faire)
+# Barème de correction (à titre indicatif)
 
 | Critère | Sous-critère | Points |
 | ------- |:------------ | ------:|
-| Fonctionnabilité  | 5 à 10 tests seront lancés (comparaison binaire) | 13.0 |
+| Fonctionnabilité  | 5 à 10 tests seront lancés (comparaison binaire) | 12.0 |
 | Compilation       | sans avertissement ni erreur                     | 2.0 |
 | Git clone         | récupération (droit lecture, écriture)           | 1.0 |
 | Qualité           |                                                  | 1.0 |
-| Directives        | respect des contraintes                          | 1.0 |
+| Directives        | respect des contraintes                          | 2.0 |
 | Makefile          | <ul><li>make</li><li>make clean</li><li>make data</li><li>make test</li><li>make resultat</li></ul> | <ul><li>2.0</li><li>1.0</li><li>1.0</li><li>1.0</li><li>1.0</li></ul> |
 | Markdown          | README.md                               | 1.0 |
 | **Total**         |                                         | 25 |
