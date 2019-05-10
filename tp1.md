@@ -80,7 +80,7 @@ tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 
 `alphabet.txt`
 ~~~~
-abcdefghiklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
 ~~~~
 
 ### Simplement avec la clé 2 (avec alphabet de [a-z])
