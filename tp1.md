@@ -210,6 +210,9 @@ Il n'y aura pas d'humain pour faire fonctionner le programme.
 Votre travail sera soumis à plusieurs cas et les résultats seront évalués par un script `bash`.
 Assurez-vous de bien lire toutes les directives et les requis.
 
+La réflexion est un élément essentiel qu'il faut pratiquer. Vous devez donc réflchir et réaliser
+un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon, soyez fier.
+
 > > Les fichiers seront soumis au détecteur de plagiat. Faites attention à l'internet.
 
 # Barème de correction (a faire)
