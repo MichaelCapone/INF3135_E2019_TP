@@ -224,3 +224,6 @@ Assurez-vous de bien lire toutes les directives et les requis.
 | Makefile          | <ul><li>make</li><li>make clean</li><li>make data</li><li>make test</li><li>make resultat</li></ul> | <ul><li>2.0</li><li>1.0</li><li>1.0</li><li>1.0</li><li>1.0</li></ul> |
 | Markdown          | README.md                               | 1.0 |
 | **Total**         |                                         | 25 |
+
+----
+##### Auteur Guy Francoeur
