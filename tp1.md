@@ -9,8 +9,8 @@
 
 # Description du travail
 
-  Nous voulons dans ce travail, à l'aide d'un sujet moderne `la crypto`, mais qui date des Romains, apprendre à produire un
-  logiciel efficace en langage C.  Simplement la méthode de caesar sera d'usage.  Elle consiste a faire un décalage de caratères.
+  Nous voulons dans ce travail, à l'aide d'un sujet moderne `la crypto`, mais qui date des Romains, apprendre et produire un
+  logiciel efficace en langage C.  Simplement la méthode de caesar sera d'usage.  Elle consiste à faire un décalage de caratères.
   
   Le programme doit encoder et décoder `(encrypt, decrypt)` des messages en utilisant une clé simple et un alphabet.
   
@@ -57,16 +57,16 @@
 
 ### Un message en clair
 
-`msg1.txt`
+`msg01.txt`
 ~~~~
-Ceci est un message lisible en francais sans les accents ou caracteres complexe.
+ceci est un message lisible en francais sans les accents ou caracteres complexe.
 ~~~~
 
 ### Un message encodé
 
-`msg2.txt`
+`msg01e.txt`
 ~~~~
-Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
+tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 ~~~~
 
 ### La clé
@@ -79,7 +79,19 @@ Tvtz vjk le dvjjrxv czjzscv ve wiretrzj jrej cvj rttvekj fl trirtkvivj tfdgcvov.
 
 `alphabet.txt`
 ~~~~
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghiklmnopqrstuvwxyz
+~~~~
+
+### Simplement avec la clé 2 (avec alphabet de [a-z])
+
+`encodé`
+~~~~
+nclqcq-rs
+~~~~
+
+`decodé`
+~~~~
+penses-tu
 ~~~~
 
 # Les tests
@@ -154,7 +166,7 @@ pour traquer certaines erreurs et les mauvaises pratiques de programmation.
    <indiquez si le projet est complété ou s'il y a des bogues>
 ~~~~
 
-# Contrainte
+# Contraintes
 
 - Les `#include` standard au langage C sont tous permis. Tel que `#include <stdio.h>`;
 - Vous ne pouvez pas utiliser des librairies (entêtes et implémentations binaire) `#include "autre.h"` d'un tiers;
