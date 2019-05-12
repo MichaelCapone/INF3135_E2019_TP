@@ -10,7 +10,7 @@
 # Description du travail
 
   Nous voulons dans ce travail, à l'aide d'un sujet moderne `la crypto`, mais qui date des Romains, apprendre et produire un
-  logiciel efficace en langage C.  Simplement la méthode de caesar sera d'usage.  Elle consiste à faire un décalage de caratères.
+  logiciel efficace en langage C.  Simplement la méthode de caesar sera d'usage.  Elle consiste à faire un décalage de caractères.
   
   Le programme doit encoder et décoder `(encrypt, decrypt)` des messages en utilisant une clé simple et un alphabet.
   
